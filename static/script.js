@@ -18,10 +18,10 @@ function test() {
     for(var i = 0; i < objPeople.length; i++){
         if(username == objPeople[i].username
             && password == objPeople[i].password) {
-                alert(username + " jest zalogowany");
-                console.log(username + " jest zalogowany");
+                alert("Zalogowano");
+                console.log("Zalogowano");
                 logined = true;
-                location.href="/indexs/menu.html";
+                location.href="https://danonki098.github.io/indexs/menu.html";
                 return;
             } 
             
@@ -32,4 +32,8 @@ function test() {
 
 function register() {
     alert("Narazie nie dziala!")
+}
+
+function menu() {
+    location.href="https://danonki098.github.io/";
 }
