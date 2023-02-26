@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    justify-content: center;
+    display: flex;
+    margin-right: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+button {
+    justify-content: center;
+    display: flex;
+    margin-left: 42%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+   width: 200px;
+}
